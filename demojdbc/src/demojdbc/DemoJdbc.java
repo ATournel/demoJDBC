@@ -18,7 +18,7 @@ public class DemoJdbc {
 		//connexion avec le driver
 		try {
 			//chargement du driver
-			Class.forName("com.mysql.jedbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Driver ok! :p ");
 			
 			//recuperation de la connexion			
